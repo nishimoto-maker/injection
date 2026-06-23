@@ -14,6 +14,8 @@ Customer user = (Customer)session.getAttribute("user");
 <p>ログイン名：<%= user.getLogin() %></p>
 <p>パスワード：<%= user.getPassword() %></p>
 
+<h1>こんにちは by 西本</h1>
+
 <br>
 <a href="menu.jsp">メニューへ戻る</a>
 
