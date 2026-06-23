@@ -16,6 +16,7 @@ public class LoginDAO extends DAO {
         Connection con = getConnection();
         
         System.out.println("接続先DB : " + con.getMetaData().getURL());
+        System.out.println("てぃんぽ");
         
         // ここが超危険
         String sql = "select * from customer where login='" + login
